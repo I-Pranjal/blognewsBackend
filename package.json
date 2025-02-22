@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "1. Run npm install \r 2. Run npm install google-auth-library\r 3. Run npm install nodemailer\r 4. Create a .env file with following details : \r GOOGLE_CLIENT_ID=Your_google_client_id\r MONGODB_URI='Your_mongoDB_Atlas_databse_link'\r senderMail=Your_sender_mail_id\r senderPassword=Your_sender_mail_password",
+  "main": "confMail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0"
+  }
+}
